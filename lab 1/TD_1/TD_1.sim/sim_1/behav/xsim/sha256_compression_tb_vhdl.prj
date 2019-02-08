@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TD_1.srcs/sources_1/imports/new/Ch.vhd" \
+"../../../../TD_1.srcs/sources_1/imports/new/Maj.vhd" \
+"../../../../TD_1.srcs/sources_1/imports/new/Sigma0.vhd" \
+"../../../../TD_1.srcs/sources_1/imports/new/Sigma1.vhd" \
+"../../../../TD_1.srcs/sources_1/imports/new/Somme0.vhd" \
+"../../../../TD_1.srcs/sources_1/imports/new/Somme1.vhd" \
+"../../../../TD_1.srcs/sim_1/imports/src_lab1_inf3500/sha256_compression_tb_completer.vhd" \
+
+# Do not sort compile order
+nosort
