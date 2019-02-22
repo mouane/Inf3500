@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Feb  7 16:22:58 2019
+# Process ID: 69436
+# Current directory: X:/Bureau/3500/TD_1/TD_1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source X:/Bureau/3500/TD_1/TD_1.sim/sim_1/behav/xsim/xsim.dir/sha256_compression_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: X:/Bureau/3500/TD_1/TD_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: X:/Bureau/3500/TD_1/TD_1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source X:/Bureau/3500/TD_1/TD_1.sim/sim_1/behav/xsim/xsim.dir/sha256_compression_tb_behav/webtalk/xsim_webtalk.tcl -notrace
