@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Feb 21 21:34:22 2019
+# Process ID: 6828
+# Current directory: X:/Bureau/3500/TD_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1604 X:\Bureau\3500\TD_1\TD_1.xpr
+# Log file: X:/Bureau/3500/TD_1/vivado.log
+# Journal file: X:/Bureau/3500/TD_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project X:/Bureau/3500/TD_1/TD_1.xpr
+update_compile_order -fileset sources_1
+close [ open X:/Bureau/3500/TD_1/TD_1.srcs/sources_1/new/algorithm_sha256.vhd w ]
+add_files X:/Bureau/3500/TD_1/TD_1.srcs/sources_1/new/algorithm_sha256.vhd
+update_compile_order -fileset sources_1
