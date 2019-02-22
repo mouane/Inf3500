@@ -1,0 +1,1131 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 147700
+License: Customer
+
+Current time: 	Fri Feb 22 11:07:57 EST 2019
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x1024
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 614 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Logiciels/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Logiciels/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	maouab
+User home directory: C:/Users/maouab
+User working directory: X:/Bureau/3500/TD_1
+User country: 	CA
+User language: 	fr
+User locale: 	fr_CA
+
+RDI_BASEROOT: C:/Logiciels/Xilinx/Vivado
+HDI_APPROOT: C:/Logiciels/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Logiciels/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Logiciels/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/maouab/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/maouab/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/maouab/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Logiciels/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	X:/Bureau/3500/TD_1/vivado.log
+Vivado journal file location: 	X:/Bureau/3500/TD_1/vivado.jou
+Engine tmp dir: 	X:/Bureau/3500/TD_1/.Xil/Vivado-147700-L3714-15
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 547 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 56 MB (+55884kb) [00:00:08]
+// [Engine Memory]: 511 MB (+384084kb) [00:00:08]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: X:\Bureau\3500\TD_1\TD_1.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project X:/Bureau/3500/TD_1/TD_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project X:/Bureau/3500/TD_1/TD_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Logiciels/Xilinx/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 554 MB (+18415kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 554 MB. GUI used memory: 35 MB. Current time: 2/22/19 11:07:59 AM EST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 591 MB (+9818kb) [00:00:14]
+// [GUI Memory]: 61 MB (+2380kb) [00:00:16]
+// [Engine Memory]: 634 MB (+14247kb) [00:00:17]
+// Project name: TD_1; location: X:/Bureau/3500/TD_1; part: xc7a100tcsg324-1
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 853.551 ; gain = 101.602 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3); // B (D, ch)
+// PAPropertyPanels.initPanels (algorithm_sha256.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 210, 83); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+// [GUI Memory]: 67 MB (+3877kb) [00:00:42]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 71 MB (+57kb) [00:00:42]
+selectCodeEditor("PartieC.vhd", 246, 121); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 222, 238); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 80, 202); // cd (w, ch)
+// Elapsed time: 48 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3); // B (D, ch)
+// [GUI Memory]: 80 MB (+5655kb) [00:01:44]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U3 : Somme1(Somme1) (Somme1.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U4 : Somme0(Somme0) (Somme0.vhd)]", 7, false); // B (D, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("PartieC.vhd", 72, 222); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 2, 298); // cd (w, ch)
+typeControlKey((HResource) null, "PartieC.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 195, 303); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 392, 361); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 389, 261); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 358, 257); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 87, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 172, 155); // cd (w, ch)
+// [GUI Memory]: 85 MB (+958kb) [00:02:46]
+// Elapsed time: 51 seconds
+selectCodeEditor("algorithm_sha256.vhd", 183, 238); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 268, 165); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 174, 164); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 174, 164, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 174, 164); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U1 : Sigma1(Sigma1) (Sigma1.vhd)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("PartieC.vhd", 90, 327); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 49, 278); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 18, 280); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 47, 235); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 124, 335); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 36, 238); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 56, 238); // cd (w, ch)
+typeControlKey((HResource) null, "PartieC.vhd", 'c'); // cd (w, ch)
+// [GUI Memory]: 90 MB (+407kb) [00:04:55]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 673 MB. GUI used memory: 42 MB. Current time: 2/22/19 11:12:44 AM EST
+// [Engine Memory]: 673 MB (+7163kb) [00:04:57]
+selectCodeEditor("algorithm_sha256.vhd", 165, 313); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U1 : Sigma1(Sigma1) (Sigma1.vhd)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("PartieC.vhd", 143, 237); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 25, 310); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 27, 280); // cd (w, ch)
+typeControlKey((HResource) null, "PartieC.vhd", 'c'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("PartieC.vhd", 341, 330); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 146, 331); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 387, 367); // cd (w, ch)
+typeControlKey((HResource) null, "PartieC.vhd", 'c'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 231, 197); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 175, 159); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 249, 135); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 220, 152); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 54, 176); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 50, 200); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 54, 196); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 51, 210); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 56, 212); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 45, 159); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 225, 157); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 43, 160); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("algorithm_sha256.vhd", 240, 165); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 232, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 235, 161); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("algorithm_sha256.vhd", 238, 315); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 105, 319); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 105, 319, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 79, 333); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 79, 333, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 337, 414); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 340, 416); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 156, 56); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 45, 113); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 49, 169); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 406, 127); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 50, 160); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 183, 163); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 174, 127); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 180, 167); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 187, 171); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 114, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 68, 169); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("algorithm_sha256.vhd", 251, 157); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 328, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 55, 166); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 140, 223); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 55, 163); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 292, 219); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 238, 211); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 235); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 340, 313); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 143, 212); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 423, 209); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 231, 194); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 216, 193); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 166, 212); // cd (w, ch)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, ch)
+// Elapsed time: 428 seconds
+selectCodeEditor("algorithm_sha256.vhd", 110, 151); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PartieC.vhd", 2); // k (j, ch)
+selectCodeEditor("PartieC.vhd", 292, 201); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 180, 278); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 171, 168); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 34, 154); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 33, 141); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 33, 141, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("PartieC.vhd", 36, 156); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 36, 156, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("PartieC.vhd", 290, 310); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 341, 273); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 22, 275); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectCodeEditor("PartieC.vhd", 168, 118); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "algorithm_sha256.vhd", 1); // k (j, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 83 seconds
+selectCodeEditor("algorithm_sha256.vhd", 266, 274); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("algorithm_sha256.vhd", 470, 293); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 436, 323); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 330, 344); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 22, 401); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 21, 418); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 18, 436); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 350, 318); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 229, 321); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 51, 354); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 51, 354, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 63, 345); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 61, 365); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 247, 352); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 115, 287); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ch)
+selectCodeEditor("algorithm_sha256.vhd", 334, 256); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 334, 141); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 377, 251); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("algorithm_sha256.vhd", 173, 197); // cd (w, ch)
+// [GUI Memory]: 96 MB (+2067kb) [00:21:53]
+selectCodeEditor("algorithm_sha256.vhd", 401, 233); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 313, 236); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 189, 256); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 106, 240); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 174, 242); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "algorithm_sha256.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PartieC.vhd", 2); // k (j, ch)
+selectCodeEditor("PartieC.vhd", 108, 328); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 0, 262); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 58, 270); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 28, 283); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 378, 322); // cd (w, ch)
+selectCodeEditor("PartieC.vhd", 17, 313); // cd (w, ch)
+typeControlKey((HResource) null, "PartieC.vhd", 'c'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 247, 227); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 235, 238); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 28, 259); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 27, 281); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 31, 299); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 136, 269); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 232); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ch)
+selectCodeEditor("algorithm_sha256.vhd", 213, 331); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 208, 126); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U1 : Sigma1(Sigma1) (Sigma1.vhd)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 312, 127); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 347, 294); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 395, 236); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 304, 230); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("algorithm_sha256.vhd", 346, 167); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("algorithm_sha256.vhd", 339, 161); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ch)
+selectCodeEditor("algorithm_sha256.vhd", 252, 124); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 178, 235); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 318, 335); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("algorithm_sha256.vhd", 276, 330); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 276, 330, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 412, 345); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 170, 362); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 175, 366); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 173, 366); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("algorithm_sha256.vhd", 183, 397); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("algorithm_sha256.vhd", 380, 402); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 42, 323); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 39, 315); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 392, 300); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 350, 350); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 215, 128); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 87, 142); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 145); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 341, 151); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ch)
+selectCodeEditor("algorithm_sha256.vhd", 303, 144); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 184, 183); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 361, 180); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 28, 283); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 26, 297); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 354, 287); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 354, 287, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 354, 287); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 13, 330); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 63, 321); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 77, 364); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 78, 365, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 78, 365); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 25, 332); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 23, 353); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 30, 347); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 112, 315); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("algorithm_sha256.vhd", 361, 279); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 361, 279, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 319, 278); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 319, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 14, 160); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 310, 312); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 310, 312, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 310, 312); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 1, 318); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd), U1 : Sigma1(Sigma1) (Sigma1.vhd)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 456, 380); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 61, 334); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 209, 347); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 47, 268); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 168, 266); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 188, 265); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 475, 320); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 194, 275); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 256, 274); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 315, 279); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 203, 292); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("algorithm_sha256.vhd", 72, 300); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 72, 300, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 168, 297); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 212, 291); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("algorithm_sha256.vhd", 337, 322); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 391, 326); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 307, 382); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 112, 372); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 105, 358); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 61, 366); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 100, 385); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 102, 383); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 73, 399); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 76, 399); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 48, 416); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 180, 316); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 169, 291); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 168, 278); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 36, 180); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 239, 358); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 186, 181); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 212, 378); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 111, 420); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 121, 243); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 165, 253); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 158, 244); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 394, 300); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 279, 335); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 414, 376); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("algorithm_sha256.vhd", 41, 268); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("algorithm_sha256.vhd", 84, 268); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("algorithm_sha256.vhd", 150, 224); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 49, 237); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 75, 239); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 73, 268); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 110, 262); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 95, 272); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 36, 283); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 24, 316); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 117, 285); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("algorithm_sha256.vhd", 138, 276); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 138, 275, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 176, 331); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 176, 331, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 63, 332); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 215, 325); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("algorithm_sha256.vhd", 171, 266); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("algorithm_sha256.vhd", 183, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 183, 262); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 90, 294); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 160, 304); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 17, 227); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 677 MB. GUI used memory: 42 MB. Current time: 2/22/19 11:42:44 AM EST
+// Elapsed time: 26 seconds
+selectCodeEditor("algorithm_sha256.vhd", 134, 367); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 157, 258); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 390, 72); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 288, 68); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 308, 71); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 308, 71, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 308, 71); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 100, 167); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 186); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 40, 182); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 138, 178); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 138, 178, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 138, 178); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 136, 180); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 130, 201); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 133, 214); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 127, 234); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 126, 220); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("algorithm_sha256.vhd", 157, 91); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 238, 26); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("algorithm_sha256.vhd", 230, 43); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 414, 175); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 84, 210); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PartieC(structurale) (PartieC.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, algorithm_sha256.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 258, 208); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 144, 200); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 99, 360); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 178, 248); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 151, 251); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 315, 249); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 90, 215); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 182, 81); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 243, 79); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 296, 75); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 242, 99); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 252, 96); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 330, 99); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 331, 95); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 128, 404); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 128, 404, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 196, 396); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 402); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 402, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 270, 399); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 385); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 381); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 52, 364); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 52, 364, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 60, 379); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 60, 379, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 220, 389); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 80, 229); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 104, 231); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 41, 229); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 41, 229, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 106, 234); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 93, 325); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 260, 327); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 257, 331); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 237, 328); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("algorithm_sha256.vhd", 341, 199); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 13, 186); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 206, 125); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 25, 212); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 140, 143); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 67, 182); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 138, 184); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 157, 146); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 38, 187); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 208); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 70, 197); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 65, 232); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 65, 248); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 41, 248); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 216, 250); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 142, 262); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 160, 260); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 64, 260); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 187, 332); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 224, 264); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("algorithm_sha256.vhd", 111, 181); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 111, 181, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 106, 299); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 156, 296); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 62, 307); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 40, 322); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 52, 318); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 91, 335); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 94, 348); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 92, 363); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 91, 385); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 92, 398); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 413); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 89, 428); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 113, 361); // cd (w, ch)
+// Elapsed time: 50 seconds
+selectCodeEditor("algorithm_sha256.vhd", 64, 350); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 31, 352); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 89, 332); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 106, 348); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 97, 368); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 121, 382); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 124, 400); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 99, 413); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 103, 433); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 191, 219); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 187, 229); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 155, 258); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 131, 230); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 82, 261); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 112, 262); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 135, 261); // cd (w, ch)
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("algorithm_sha256.vhd", 66, 355); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 47, 260); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("algorithm_sha256.vhd", 427, 381); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("algorithm_sha256.vhd", 67, 199); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 135, 78); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 35, 243); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 59, 173); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 111, 199); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("algorithm_sha256.vhd", 430, 158); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 276, 164); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 130, 164); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 189); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 143, 185); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 72, 158); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 76, 167); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 128, 184); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 207, 183); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 215, 176); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 338, 232); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 94 seconds
+selectCodeEditor("algorithm_sha256.vhd", 89, 215); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 154, 196); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 61, 371); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 447, 227); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 279, 232); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 91, 255); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 301, 250); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 378, 250); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 182, 248); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 182, 247); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("algorithm_sha256.vhd", 134, 244); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 244, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 133, 297); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 456, 79); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 429, 76); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 407, 93); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 66, 112); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 234, 92); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 236, 90); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 228, 93); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 89, 99); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 98, 93); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 87, 266); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 247); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 107, 231); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 192, 240); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 147, 310); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("algorithm_sha256.vhd", 89, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 87, 268); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 313); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 87, 255); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 3, 262); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("algorithm_sha256.vhd", 46, 318); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 61, 347); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 104, 368); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 265, 341); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 172, 364); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 119, 380); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 216, 381); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 123, 401); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 101, 417); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 109, 415); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 96, 414); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 96, 414, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 110, 408); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 111, 420); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 56, 193); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 89, 281); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 94, 260); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 12, 280); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("algorithm_sha256.vhd", 174, 158); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 97, 160); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 81, 186); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 107, 213); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 193, 233); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 76, 256); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 114, 249); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 110, 265); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("algorithm_sha256.vhd", 128, 108); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 163, 112); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 163, 112, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 170, 108); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 170, 108, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 191, 109); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 189, 311); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("algorithm_sha256.vhd", 224, 318); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectCodeEditor("algorithm_sha256.vhd", 154, 178); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 206, 196); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 83, 313); // cd (w, ch)
+// Elapsed time: 49 seconds
+selectCodeEditor("algorithm_sha256.vhd", 242, 291); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 677 MB. GUI used memory: 40 MB. Current time: 2/22/19 12:12:45 PM EST
+// Elapsed time: 1122 seconds
+selectCodeEditor("algorithm_sha256.vhd", 344, 212); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, algorithm_sha256(algorithm_sha256) (algorithm_sha256.vhd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, algorithm_sha256(algorithm_sha256) (algorithm_sha256.vhd)]", 2, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top algorithm_sha256 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("algorithm_sha256.vhd", 280, 175); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("algorithm_sha256.vhd", 198, 332); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("algorithm_sha256.vhd", 317, 148); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 317, 148, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 360, 137); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 356, 139, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 356, 139); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 356, 139); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 356, 139); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 373, 143); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("algorithm_sha256.vhd", 401, 148); // cd (w, ch)
+typeControlKey(null, null, 'z');
+// Elapsed time: 62 seconds
+selectCodeEditor("algorithm_sha256.vhd", 17, 136); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 24, 147); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("algorithm_sha256.vhd", 39, 142); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("algorithm_sha256.vhd", 376, 44); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 182, 415); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 184, 398); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 235, 399); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 213, 398); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 213, 398, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 239, 402); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 347, 409); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 337, 401); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 165, 403); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 325, 409); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 227, 384); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 365, 413); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 241, 405); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 105, 120); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 105, 120, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 69, 130); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 69, 130, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 65, 130); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 147, 129); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 99, 129); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 167, 156); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 143, 159); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 353, 73); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 353, 73, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 382, 68); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 372, 80); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 372, 80, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 285, 71); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("algorithm_sha256.vhd", 292, 264); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 262); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 121, 97); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 80, 159); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 288, 175); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 294, 175); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 393, 198); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 286, 177); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 173, 178); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 157, 281); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 157, 281, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 170, 262); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 165, 285); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 352, 284); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 132, 276); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 59, 287); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 63, 282); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 150, 269); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 157, 278); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 269, 266); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 177, 281); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 188, 279); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("algorithm_sha256.vhd", 126, 283); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 134, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 287, 310); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 130, 279); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 122, 283); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 130, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 124, 278); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("algorithm_sha256.vhd", 211, 274); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 160, 263); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("algorithm_sha256.vhd", 395, 309); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("algorithm_sha256.vhd", 83, 382); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("algorithm_sha256.vhd", 287, 401); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 354, 383); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 306, 385); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 242, 393); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 242, 393, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 175, 396); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 131, 403); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("algorithm_sha256.vhd", 171, 290); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 171, 290, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 173, 297); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 194, 302); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 139, 296); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 150, 301); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 43, 299); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 14, 296); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 95, 301); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 34, 298); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 118, 301); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("algorithm_sha256.vhd", 76, 250); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 76, 250, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 76, 250); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("algorithm_sha256.vhd", 17, 221); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 17, 221, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 315, 220); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 306, 234); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 373, 233); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 373, 233, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 79, 178); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 70, 365); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 83, 278); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 79, 196); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("algorithm_sha256.vhd", 60, 148); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 60, 148, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 253, 160); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 232, 179); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 350, 177); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 426, 148); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 290, 177); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 290, 177, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 290, 177); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 478, 181); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("algorithm_sha256.vhd", 151, 194); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("algorithm_sha256.vhd", 273, 193); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 283, 198); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 52, 194); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 429, 272); // cd (w, ch)
+// Elapsed time: 420 seconds
+selectCodeEditor("algorithm_sha256.vhd", 124, 231); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 229, 271); // cd (w, ch)
+// Elapsed time: 81 seconds
+selectCodeEditor("algorithm_sha256.vhd", 260, 198); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 294, 146); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 44 seconds
+selectCodeEditor("algorithm_sha256.vhd", 227, 241); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 113, 285); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 130, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 66, 284); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 71, 284); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 114, 282); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("algorithm_sha256.vhd", 124, 278); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 132, 278); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 221, 282); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 160, 278); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 35, 290); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 151, 277); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 299); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 137, 319); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 336); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 138, 354); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 136, 365); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 131, 389); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 131, 396); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 206, 287); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 188, 301); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 178, 285); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 178, 285, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 221, 274); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 185, 297); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 189, 307); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 176, 326); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 175, 335); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 172, 355); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 179, 361); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 171, 382); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 187, 405); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 206, 277); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 677 MB. GUI used memory: 40 MB. Current time: 2/22/19 12:42:45 PM EST
+// Elapsed time: 77 seconds
+selectCodeEditor("algorithm_sha256.vhd", 75, 370); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("algorithm_sha256.vhd", 172, 360); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 94, 280); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 86, 280); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 284); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 171, 276); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 159, 278); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("algorithm_sha256.vhd", 76, 300); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("algorithm_sha256.vhd", 73, 314); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 81, 312); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 73, 320); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 75, 322); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("algorithm_sha256.vhd", 97, 337); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 91, 335); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 84, 335); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 331); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 82, 332); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 88, 330); // cd (w, ch)
+// Elapsed time: 49 seconds
+selectCodeEditor("algorithm_sha256.vhd", 250, 271); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 122, 185); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 250, 209); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 148, 196); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("algorithm_sha256.vhd", 242, 276); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("algorithm_sha256.vhd", 216, 87); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 132, 211); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 122, 211); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 122, 211, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 82, 236); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 169, 246); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 66, 299); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 194, 322); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 153, 308); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("algorithm_sha256.vhd", 314, 438); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 198, 338); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 166, 145); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 159, 163); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 170, 271); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 178, 351); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 181, 383); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 40, 382); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 149, 290); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 149, 290, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 247, 211); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 173, 174); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 217, 108); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 215, 87); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 219, 92); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 221, 114); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 223, 129); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 231, 137); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 253, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 249, 177); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 248, 195); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 249, 212); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 245, 194); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 246, 178); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 261, 221); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("algorithm_sha256.vhd", 93, 411); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 90, 403); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 90, 403); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 132, 261); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 141, 173); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 378, 179); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 366, 194); // cd (w, ch)
+// Elapsed time: 68 seconds
+selectCodeEditor("algorithm_sha256.vhd", 347, 374); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 190, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 181, 266); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 304, 244); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 304, 244, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 355, 243); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 128, 273); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 127, 267); // cd (w, ch)
+typeControlKey((HResource) null, "algorithm_sha256.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 117, 258); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 117, 258, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 325, 269); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 258, 207); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("algorithm_sha256.vhd", 283, 264); // cd (w, ch)
+// Elapsed time: 599 seconds
+selectCodeEditor("algorithm_sha256.vhd", 493, 321); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 677 MB. GUI used memory: 40 MB. Current time: 2/22/19 1:12:45 PM EST
+// Elapsed time: 2340 seconds
+selectCodeEditor("algorithm_sha256.vhd", 256, 265); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 224, 213); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 144, 210); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 28, 223); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 28, 223, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 78, 231); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 78, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 121, 240); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 108, 230); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 60, 226); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 60, 226, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 16, 232); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 16, 232, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("algorithm_sha256.vhd", 20, 162); // cd (w, ch)
+selectCodeEditor("algorithm_sha256.vhd", 23, 155); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 677 MB. GUI used memory: 40 MB. Current time: 2/22/19 1:42:45 PM EST
